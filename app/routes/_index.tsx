@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node"
+import "~/services/database"
 
 export const meta: MetaFunction = () => {
   return [{ title: "Notificador" }]
